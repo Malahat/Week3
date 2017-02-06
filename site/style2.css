@@ -1,0 +1,57 @@
+body
+{
+	font-size:16px;
+	background-color:grey;
+}
+
+#header-nav
+{
+	border-radius:0;
+	border:0;
+	background-color:orange;
+}
+
+.navbar-brand h1
+{
+	margin-bottom:0;
+	margin-top:0;
+	font-size:1.5em;
+	color:white;
+}
+
+#nav-list
+{
+	background-color:white;
+}
+#nav-list a
+{
+	text-align:center;
+	color:black;
+}
+#nav-list a:hover
+{
+	background-color:grey;
+}
+
+.main h1
+{
+	color:black;
+}
+section
+{
+	background-color:white;
+	margin-bottom:30px;
+}
+.content
+{
+	padding:10px;
+}
+
+@media (max-width:767px)
+{
+	section.row
+	{
+		margin-left:auto;
+		margin-right:auto;
+	}
+}
